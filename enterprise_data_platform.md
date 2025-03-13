@@ -134,8 +134,8 @@ graph TB
     HLM --> NS
 ```
 
-- Batch processing of 500TB data per day with efficient resource utilization
-- Streaming pipeline capable of ingesting 1 million rows in less than 1 minute
+- Batch processing of 4TB data per day with efficient resource utilization
+- Streaming pipeline capable of ingesting 1 billion rows in approx 1 hour
 - Self-service pipeline creation with minimal intervention from platform team
 - Well-defined data model with fact/dimension tables in the data warehouse
 - Comprehensive CI/CD pipeline with automated testing and deployment
