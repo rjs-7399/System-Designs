@@ -9,10 +9,10 @@ This document outlines the system design for our Enterprise Data Platform, a com
 We are building an enterprise-grade data processing platform that enables:
 
 1. High-volume batch data processing (4TB+ per day)
-2. Low-latency streaming data processing (1.2B+ records per hour)
-3. Structured data modeling with fact and dimension tables
+2. High-volume streaming data processing (1.2B+ records per hour)
+3. Structured, robust and reusable pipelines build using airflow and pyspark structured streaming
 4. Self-service pipeline creation via API and CLI tools
-5. Cost-efficient scaling where compute resources are managed by the client
+5. Performance optimized pipelines where compute resources are managed by the client at scale
 
 ## Success Criteria
 
