@@ -37,9 +37,7 @@ processing_engine_configs:
   deploy-mode: 'cluster'
   spark.kubernetes.driver.memory: '5000m'
   spark.kubernetes.executor.memory: '5000m'
-  spark.kubernetes.authenticate.driver.serviceAccountName: 'spark-operator-spark'
-  spark.hadoop.fs.s3a.aws.credentials.provider: 'com.amazonaws.auth.WebIdentityTokenCredentialsProvider'
-  spark.kubernetes.container.image.pullSecrets: 'docker-secret-cred'
+  spark.kubernetes.authenticate.driver.serviceAccountName: 'spark-operator'
   spark.kubernetes.file.upload.path: '/opt/spark/work-dir'
   spark.kubernetes.namespace: 'spark-streaming-jobs'
   num-executors: 2
@@ -183,9 +181,7 @@ processing_engine_configs:
   deploy-mode: 'cluster'
   spark.kubernetes.driver.memory: '24000m'
   spark.kubernetes.executor.memory: '24000m'
-  spark.kubernetes.authenticate.driver.serviceAccountName: 'spark-operator-spark'
-  spark.hadoop.fs.s3a.aws.credentials.provider: 'com.amazonaws.auth.WebIdentityTokenCredentialsProvider'
-  spark.kubernetes.container.image.pullSecrets: 'docker-secret-cred'
+  spark.kubernetes.authenticate.driver.serviceAccountName: 'spark-operator'
   spark.kubernetes.file.upload.path: '/opt/spark/work-dir'
   spark.kubernetes.namespace: 'spark-streaming-jobs'
   num-executors: 1
